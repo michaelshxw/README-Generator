@@ -16,8 +16,8 @@ This project is licensed with the MIT license. Copywrite 2021 Michael Shaw.
 
 ## Credits
 
-[Free Code Camp - License Badges](https://www.freecodecamp.org/news/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94)
-[StackOverflow - Table of Contents](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents)
+* [Free Code Camp - License Badges](https://www.freecodecamp.org/news/how-open-source-licenses-work-and-how-to-add-them-to-your-projects-34310c3cf94)
+* [StackOverflow - Table of Contents](https://stackoverflow.com/questions/11948245/markdown-to-create-pages-and-table-of-contents)
 
 ## Questions
 GitHub username: [michaelshxw](http://www.github.com/michaelshxw)
