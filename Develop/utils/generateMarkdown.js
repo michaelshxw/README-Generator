@@ -74,6 +74,7 @@ function generateMarkdown(userInput) {
   ## Tests 
   ${userInput.testInstructions}
   ## License
+  \n${badgeLink}\n\n---\n
   This project is licensed with the ${userInput.license} license.
   ## Credits
   ${userInput.creditInfo}

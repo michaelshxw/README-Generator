@@ -1,6 +1,6 @@
-# Title
+# 
   ## Project Description
-  Description
+  
   ## Table of Contents
   * [Installation](#installation)  
   * [Usage](#usage)
@@ -11,18 +11,23 @@
   * [Questions](#questions)
 
   ## Installation 
-  undefined
+  
   ## Usage
-  undefined
+  
   ## Contributions
-  undefined
+  
   ## Tests 
-  undefined
+  
   ## License
-  This project is licensed with the GPLv3 license.
-  ## Credits
-  undefined
-  ## Questions
-  GitHub username: [michaelshxw](http://www.github.com/michaelshxw)
+  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  For any questions or queries, please email me here: [michaelshxw@gmail.com](mailto:michaelshxw@gmail.com)
+---
+
+  This project is licensed with the MIT license.
+  ## Credits
+  
+  ## Questions
+  GitHub username: [](http://www.github.com/)
+
+  For any questions or queries, please email me here: [](mailto:)
