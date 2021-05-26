@@ -76,8 +76,6 @@ function generateMarkdown(userInput) {
   ${userInput.testInstructions}
   ## License
   This project is licensed with the ${userInput.license} license.
-  ## Credits
-  ${userInput.creditInfo}
   ## Questions
   GitHub username: [${userInput.github}](http://www.github.com/${userInput.github})
 

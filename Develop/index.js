@@ -102,19 +102,6 @@ const questions = [
             'Unlicensed'
         ]
     },
-    {
-        type: 'confirm',
-        message: 'Would you like to add any credits to your project?',
-        name: 'credit',
-    },
-    {
-        type: 'input',
-        message: 'Please enter your credits',
-        name: 'creditInfo',
-        when: function creditInput(input) {
-            return input.credit;
-        }
-    },
 ];
 
 // TODO: Create a function to write README file
