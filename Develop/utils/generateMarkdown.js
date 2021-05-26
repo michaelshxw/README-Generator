@@ -54,6 +54,7 @@ function generateMarkdown(userInput) {
 
   //function to generate markdown here
   return `# ${userInput.title}
+  \n${badgeLink}\n\n---\n
   ## Project Description
   ${userInput.description}
   ## Table of Contents
@@ -74,7 +75,6 @@ function generateMarkdown(userInput) {
   ## Tests 
   ${userInput.testInstructions}
   ## License
-  \n${badgeLink}\n\n---\n
   This project is licensed with the ${userInput.license} license.
   ## Credits
   ${userInput.creditInfo}
