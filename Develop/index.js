@@ -2,15 +2,6 @@
 const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
 const inquirer = require('inquirer');
-const inquirerRecursive = require('inquirer-recursive');
-
-// Welcome message
-
-const welcome = {
-    type: 'confirm',
-    message: "Welcome to my README.md generator! You will be presented with serveral options for your README's sections and their contents. To begin, select 'Y' or enter.",
-    name: 'welcome'
-}
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -31,7 +22,7 @@ const questions = [
         name: 'email',
         validate: function validateEmailFunction(email) {
             let validateEmail = email.match(/^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/);
-            if (validateEmail) {
+            if (!validateEmail) {
                 return true;
             } else {
                 return 'Please enter a valid email address';
@@ -54,7 +45,6 @@ const questions = [
         name: 'installationNotes',
         when: function installationInput(input) {
             return input.installation;
-            console.log(input.installation);
         }
     },
     {
@@ -125,31 +115,25 @@ const questions = [
             return input.credit;
         }
     },
-    {
-        type: 'recursive',
-        message: 'Would you like to add any credits to your project?',
-        name: 'creditsRepeat',
-        prompts: {
-            type: 'input',
-            message: 'Please enter your credits',
-            name: 'creditInfoRepeat',
-        }
-    },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(fileName, answers) {
     //function to write README.md here
-    
-}
+    const markdown = generateMarkdown({ ...answers}) // "..." needs to be used as answers has multiple values
+    // write the file with the fileName, markdown and an error function
+    fs.writeFile(fileName, markdown, function (error) {
+        if (error) {
+            return console.log(error, "There has been an error. Please try again");
+        };
+    });
+};
 
-// TODO: Create a function to initialize app
-function init() {
-    //function to initialise app here
-}
+//Learnt async functions at the start of week 13 Monday class... before I wrote this code! 
+async function init() {
+    const userInput = await inquirer.prompt(questions)
+    writeToFile("READMEtest.md", userInput)
+};
 
 // Function call to initialize app
 init();
-
-
-
