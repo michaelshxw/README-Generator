@@ -1,4 +1,4 @@
-# Title
+# Project Title
   ## Project Description
   Description
   ## Table of Contents
@@ -11,18 +11,18 @@
   * [Questions](#questions)
 
   ## Installation 
-  Install using VSCODE, download here:
+  Install
   ## Usage
-  use with caution
+  Usage info here
   ## Contributions
-  contributions welcome
+  Contributors: Michael, Jacob
   ## Tests 
-  no tests currently available
+  No tests currently available
   ## License
   This project is licensed with the Apache 2.0 license.
   ## Credits
-  thanks to Jacob for helping with this generator
+  Credits: none
   ## Questions
   GitHub username: [michaelshxw](http://www.github.com/michaelshxw)
 
-  Email: [michaelshxw@gmail.com](mailto:michaelshxw@gmail.com)
+  For any questions or queries, please email me here: [michaelshxw@gmail.com](mailto:michaelshxw@gmail.com)
