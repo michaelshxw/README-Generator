@@ -87,7 +87,7 @@ const questions = [
         }
     },
     {
-        type: 'list',
+        type: 'rawlist',
         message: 'Which license does your project use?',
         name: 'license',
         choices: [
