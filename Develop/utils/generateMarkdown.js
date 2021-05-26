@@ -54,7 +54,7 @@ function generateMarkdown(userInput) {
 
   //function to generate markdown here
   return `# ${userInput.title}
-  \n${badgeLink}\n\n---\n
+  ${badgeLink}
   ## Project Description
   ${userInput.description}
   ## Table of Contents
