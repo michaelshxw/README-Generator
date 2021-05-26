@@ -1,27 +1,8 @@
-// // TODO: Create a function that returns a license badge based on which license is passed in
-// // If there is no license, return an empty string
-// function renderLicenseBadge(license) {
-//   // function to render license badge
-// };
-
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//   // function to render license link
-// };
-
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {
-//   // function to render license section
-// }
-
-// License is automatically displayed when user selects and adds the LICENSE file to their repo
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(userInput) {
   
   //license badge handler switch
+  //based on the case that the user chooses, the corresponding link will appear with the license badge
   switch (userInput.license) {
     case 'MIT':
       badgeLink = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
@@ -65,7 +46,6 @@ function generateMarkdown(userInput) {
   * [License](#license)
   * [Credits](#credits)
   * [Questions](#questions)
-
   ## Installation 
   ${userInput.installationNotes}
   ## Usage
