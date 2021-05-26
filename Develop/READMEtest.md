@@ -10,7 +10,6 @@
   * [License](#license)
   * [Credits](#credits)
   * [Questions](#questions)
-
   ## Installation 
   
   ## Usage
@@ -22,6 +21,6 @@
   ## License
   This project is licensed with the MIT license.
   ## Questions
-  GitHub username: [](http://www.github.com/)
+  GitHub username: [michaelshxw](http://www.github.com/michaelshxw)
 
-  For any questions or queries, please email me here: [](mailto:)
+  For any questions or queries, please email me here: [michaelshxw@gmail.com](mailto:michaelshxw@gmail.com)
