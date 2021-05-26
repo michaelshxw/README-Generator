@@ -92,14 +92,14 @@ const questions = [
         name: 'license',
         choices: [
             'MIT',
-            'GPLv2',
-            'GPLv3',
+            'GNU GPL v2',
+            'GNU GPL v3',
             'Apache 2.0',
             'BSD 2-clause',
             'BSD 3-clause',
-            'LGPLv3',
-            'AGPLv3',
-            'Unlicense'
+            'GNU LGPL v3',
+            'GNU AGPL v3',
+            'Unlicensed'
         ]
     },
     {

@@ -1,4 +1,4 @@
-# Project Title
+# Title
   ## Project Description
   Description
   ## Table of Contents
@@ -11,17 +11,17 @@
   * [Questions](#questions)
 
   ## Installation 
-  Install
+  undefined
   ## Usage
-  Usage info here
+  undefined
   ## Contributions
-  Contributors: Michael, Jacob
+  undefined
   ## Tests 
-  No tests currently available
+  undefined
   ## License
-  This project is licensed with the Apache 2.0 license.
+  This project is licensed with the GPLv3 license.
   ## Credits
-  Credits: none
+  undefined
   ## Questions
   GitHub username: [michaelshxw](http://www.github.com/michaelshxw)
 
