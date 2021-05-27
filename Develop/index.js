@@ -16,13 +16,13 @@ const questions = [
         name: 'github',
     },
     {
-        //Reference: https://www.edureka.co/blog/javascript-email-validation/
+        //Reference: http://zparacha.com/validate-email-address-using-javascript-regular-expression
         type: 'input',
         message: 'What is your email address?',
         name: 'email',
         validate: function validateEmailFunction(email) {
-            let validateEmail = email.match(/^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/);
-            if (!validateEmail) {
+            let validateEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email);
+            if (validateEmail) {
                 return true;
             } else {
                 return 'Please enter a valid email address';
